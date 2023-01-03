@@ -16,11 +16,11 @@ div{
 @media (min-width: 576px) {
     #foto{
         position: absolute;
-        width: 15%;
+        width: 13%;
         border-radius: 100%;
         box-shadow: 3px 3px 3px gray;
         left: 2%;
-        top: 545px;
+        top: 650px;
     }
 }
 
