@@ -18,25 +18,32 @@ export class EditExperienciaComponent implements OnInit {
   ngOnInit(): void {
     const id = this.activatedRouter.snapshot.params['id'];
     this.sExperiencia.detail(id).subscribe(
-      data=>{
-        this.expLab = data;
-      }, err =>{
-        alert("Error en actualizar datos");
-        this.router.navigate(['']);
-      }
-    )
+      {
+        next: data=>{
+          this.expLab = data;
+      },
+        error: err=> {
+          alert("Error en actualizar datos");
+          this.router.navigate(['']);
+        }
+        
+      });
+    
   }
 
   onUpdate():void{
     const id = this.activatedRouter.snapshot.params['id'];
     this.sExperiencia.update(id, this.expLab).subscribe(
-      data => {
+      {
+        next: data => {
         this.router.navigate(['']);
-      }, err =>{
+      }, 
+        error: err =>{
         alert("Error en actualizar datos");
         this.router.navigate(['']);
-      }
-    )
+        }
+
+      });
   }
 
 
