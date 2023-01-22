@@ -13,35 +13,38 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
+@RequestMapping("/personas")
 @CrossOrigin(origins = "https://frontendsmy.web.app")
 public class ControladorPersona {
-    @Autowired IPersonaServicios ipersonaServicios;
+    @Autowired 
+    IPersonaServicios ipersonaServicios;
     
-    @GetMapping("/personas/traer")
+    @GetMapping("/traer")
     public List<persona> getPersona(){
         return ipersonaServicios.getPersona();
     }
     
     @PreAuthorize("hasRole('ADMIN')")
-    @PostMapping("/personas/crear")
+    @PostMapping("/crear")
     public String createPersona(@RequestBody persona persona){
         ipersonaServicios.savePersona(persona);
         return "El Registro fue creado de forma Exitosa";
     }
     
     @PreAuthorize("hasRole('ADMIN')")
-    @DeleteMapping("/personas/borrar/{id}")
+    @DeleteMapping("/borrar/{id}")
     public String deletePersona(@PathVariable Long id){
         ipersonaServicios.deletePersona(id);
         return "El registro fue eliminado de forma exitosa";
     }
     
     @PreAuthorize("hasRole('ADMIN')")
-    @PutMapping("/personas/editar/{id}")
+    @PutMapping("/editar/{id}")
     public persona edithPersona(@PathVariable Long id,
                                 @RequestParam("nombre") String nuevoNombre,
                                 @RequestParam("apellido") String nuevoApellido,
@@ -56,7 +59,7 @@ public class ControladorPersona {
         return persona;
     }
     
-    @GetMapping("/personas/traer/perfil")
+    @GetMapping("/traer/perfil")
     public persona findPersona(){
         return ipersonaServicios.findPersona((long)2);
     }
