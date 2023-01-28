@@ -3,6 +3,7 @@ C:\Users\willi\Documents\ProyectoIntegradorAP\ProyectoIntegradorAP_BackEnd\src\m
 C:\Users\willi\Documents\ProyectoIntegradorAP\ProyectoIntegradorAP_BackEnd\src\main\java\com\portfolio\smy\repositorio\RExperiencia.java
 C:\Users\willi\Documents\ProyectoIntegradorAP\ProyectoIntegradorAP_BackEnd\src\main\java\com\portfolio\smy\security\service\UserDetailsImpl.java
 C:\Users\willi\Documents\ProyectoIntegradorAP\ProyectoIntegradorAP_BackEnd\src\main\java\com\portfolio\smy\Dto\dtoExperiencia.java
+C:\Users\willi\Documents\ProyectoIntegradorAP\ProyectoIntegradorAP_BackEnd\src\main\java\com\portfolio\smy\Dto\dtoHabilidades.java
 C:\Users\willi\Documents\ProyectoIntegradorAP\ProyectoIntegradorAP_BackEnd\src\main\java\com\portfolio\smy\security\service\UsuarioService.java
 C:\Users\willi\Documents\ProyectoIntegradorAP\ProyectoIntegradorAP_BackEnd\src\main\java\com\portfolio\smy\security\Dto\LoginUsuario.java
 C:\Users\willi\Documents\ProyectoIntegradorAP\ProyectoIntegradorAP_BackEnd\src\main\java\com\portfolio\smy\security\Dto\NuevoUsuario.java
@@ -12,7 +13,9 @@ C:\Users\willi\Documents\ProyectoIntegradorAP\ProyectoIntegradorAP_BackEnd\src\m
 C:\Users\willi\Documents\ProyectoIntegradorAP\ProyectoIntegradorAP_BackEnd\src\main\java\com\portfolio\smy\interfaces\IPersonaServicios.java
 C:\Users\willi\Documents\ProyectoIntegradorAP\ProyectoIntegradorAP_BackEnd\src\main\java\com\portfolio\smy\controlador\CEducacion.java
 C:\Users\willi\Documents\ProyectoIntegradorAP\ProyectoIntegradorAP_BackEnd\src\main\java\com\portfolio\smy\entidad\Experiencia.java
+C:\Users\willi\Documents\ProyectoIntegradorAP\ProyectoIntegradorAP_BackEnd\src\main\java\com\portfolio\smy\entidad\habilidades.java
 C:\Users\willi\Documents\ProyectoIntegradorAP\ProyectoIntegradorAP_BackEnd\src\main\java\com\portfolio\smy\security\Dto\JWTDto.java
+C:\Users\willi\Documents\ProyectoIntegradorAP\ProyectoIntegradorAP_BackEnd\src\main\java\com\portfolio\smy\controlador\CHabilidades.java
 C:\Users\willi\Documents\ProyectoIntegradorAP\ProyectoIntegradorAP_BackEnd\src\main\java\com\portfolio\smy\security\MainSecurity.java
 C:\Users\willi\Documents\ProyectoIntegradorAP\ProyectoIntegradorAP_BackEnd\src\main\java\com\portfolio\smy\repositorio\REducacion.java
 C:\Users\willi\Documents\ProyectoIntegradorAP\ProyectoIntegradorAP_BackEnd\src\main\java\com\portfolio\smy\controlador\ControladorPersona.java
@@ -24,11 +27,13 @@ C:\Users\willi\Documents\ProyectoIntegradorAP\ProyectoIntegradorAP_BackEnd\src\m
 C:\Users\willi\Documents\ProyectoIntegradorAP\ProyectoIntegradorAP_BackEnd\src\main\java\com\portfolio\smy\SmyApplication.java
 C:\Users\willi\Documents\ProyectoIntegradorAP\ProyectoIntegradorAP_BackEnd\src\main\java\com\portfolio\smy\entidad\persona.java
 C:\Users\willi\Documents\ProyectoIntegradorAP\ProyectoIntegradorAP_BackEnd\src\main\java\com\portfolio\smy\security\controller\Mensaje.java
+C:\Users\willi\Documents\ProyectoIntegradorAP\ProyectoIntegradorAP_BackEnd\src\main\java\com\portfolio\smy\servicios\SHabilidades.java
 C:\Users\willi\Documents\ProyectoIntegradorAP\ProyectoIntegradorAP_BackEnd\src\main\java\com\portfolio\smy\security\controller\AuthController.java
 C:\Users\willi\Documents\ProyectoIntegradorAP\ProyectoIntegradorAP_BackEnd\src\main\java\com\portfolio\smy\servicios\SExperiencia.java
 C:\Users\willi\Documents\ProyectoIntegradorAP\ProyectoIntegradorAP_BackEnd\src\main\java\com\portfolio\smy\security\jwt\JWTTokenFilter.java
 C:\Users\willi\Documents\ProyectoIntegradorAP\ProyectoIntegradorAP_BackEnd\src\main\java\com\portfolio\smy\security\entity\usuario.java
 C:\Users\willi\Documents\ProyectoIntegradorAP\ProyectoIntegradorAP_BackEnd\src\main\java\com\portfolio\smy\security\repository\RolRepository.java
+C:\Users\willi\Documents\ProyectoIntegradorAP\ProyectoIntegradorAP_BackEnd\src\main\java\com\portfolio\smy\repositorio\RHabilidades.java
 C:\Users\willi\Documents\ProyectoIntegradorAP\ProyectoIntegradorAP_BackEnd\src\main\java\com\portfolio\smy\security\repository\IUsuarioRepository.java
 C:\Users\willi\Documents\ProyectoIntegradorAP\ProyectoIntegradorAP_BackEnd\src\main\java\com\portfolio\smy\Dto\dtoEducacion.java
 C:\Users\willi\Documents\ProyectoIntegradorAP\ProyectoIntegradorAP_BackEnd\src\main\java\com\portfolio\smy\security\entity\UsuarioPrincipal.java
