@@ -20,10 +20,13 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+@RequestMapping("/habilidades")
+@CrossOrigin(origins = "https://frontendsmy.web.app")
+
 public class CHabilidades {
     @Autowired
     SHabilidades shabilidades;
