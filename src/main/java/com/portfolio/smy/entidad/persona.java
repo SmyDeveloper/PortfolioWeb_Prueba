@@ -12,7 +12,7 @@ import jakarta.validation.constraints.Size;
 public class persona {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private Integer id;
     
     @NotNull
     @Size(min = 1, max = 30, message = "Debe colocar un nombre con los siguientes parámetros minimo=1 caracter máximo= 30")
@@ -22,15 +22,29 @@ public class persona {
     @Size(min = 1, max = 30, message = "Debe colocar un nombre con los siguientes parámetros minimo=1 caracter máximo= 30")
     private String apellido;
     
+    @NotNull
+    private String descripcion;
     
-    @Size(min = 1, max = 30, message = "Debe colocar un nombre con los siguientes parámetros minimo=1 caracter máximo= 30")
+    
     private String img;
 
-    public Long getId() {
+    public persona() {
+    }
+
+    public persona(String nombre, String apellido, String descripcion, String img) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.descripcion = descripcion;
+        this.img = img;
+    }
+    
+    
+
+    public Integer getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -49,6 +63,16 @@ public class persona {
     public void setApellido(String apellido) {
         this.apellido = apellido;
     }
+
+    public String getDescripcion() {
+        return descripcion;
+    }
+
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
+    }
+    
+    
 
     public String getImg() {
         return img;

@@ -25,8 +25,8 @@ com\portfolio\smy\repositorio\REducacion.class
 com\portfolio\smy\controlador\CHabilidades.class
 com\portfolio\smy\servicios\SEducacion.class
 com\portfolio\smy\Dto\dtoEducacion.class
+com\portfolio\smy\Dto\dtoPersona.class
 com\portfolio\smy\security\controller\AuthController.class
-com\portfolio\smy\interfaces\IPersonaServicios.class
 com\portfolio\smy\Dto\dtoExperiencia.class
 com\portfolio\smy\security\enums\RoleNombre.class
 com\portfolio\smy\security\service\UsuarioService.class

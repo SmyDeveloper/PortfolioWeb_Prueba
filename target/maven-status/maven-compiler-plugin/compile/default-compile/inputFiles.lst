@@ -10,8 +10,8 @@ C:\Users\willi\Documents\ProyectoIntegradorAP\ProyectoIntegradorAP_BackEnd\src\m
 C:\Users\willi\Documents\ProyectoIntegradorAP\ProyectoIntegradorAP_BackEnd\src\main\java\com\portfolio\smy\servicios\SEducacion.java
 C:\Users\willi\Documents\ProyectoIntegradorAP\ProyectoIntegradorAP_BackEnd\src\main\java\com\portfolio\smy\security\jwt\JWTEntryPoint.java
 C:\Users\willi\Documents\ProyectoIntegradorAP\ProyectoIntegradorAP_BackEnd\src\main\java\com\portfolio\smy\controlador\CExperiencia.java
-C:\Users\willi\Documents\ProyectoIntegradorAP\ProyectoIntegradorAP_BackEnd\src\main\java\com\portfolio\smy\interfaces\IPersonaServicios.java
 C:\Users\willi\Documents\ProyectoIntegradorAP\ProyectoIntegradorAP_BackEnd\src\main\java\com\portfolio\smy\controlador\CEducacion.java
+C:\Users\willi\Documents\ProyectoIntegradorAP\ProyectoIntegradorAP_BackEnd\src\main\java\com\portfolio\smy\Dto\dtoPersona.java
 C:\Users\willi\Documents\ProyectoIntegradorAP\ProyectoIntegradorAP_BackEnd\src\main\java\com\portfolio\smy\entidad\Experiencia.java
 C:\Users\willi\Documents\ProyectoIntegradorAP\ProyectoIntegradorAP_BackEnd\src\main\java\com\portfolio\smy\entidad\habilidades.java
 C:\Users\willi\Documents\ProyectoIntegradorAP\ProyectoIntegradorAP_BackEnd\src\main\java\com\portfolio\smy\security\Dto\JWTDto.java
