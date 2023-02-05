@@ -15,14 +15,15 @@ public class persona {
     private Integer id;
     
     @NotNull
-    @Size(min = 1, max = 30, message = "Debe colocar un nombre con los siguientes parámetros minimo=1 caracter máximo= 30")
+    @Size(min = 1, max = 255, message = "Debe colocar un nombre con los siguientes parámetros minimo=1 caracter máximo= 255")
     private String nombre;
     
     @NotNull
-    @Size(min = 1, max = 30, message = "Debe colocar un nombre con los siguientes parámetros minimo=1 caracter máximo= 30")
+    @Size(min = 1, max = 255, message = "Debe colocar un nombre con los siguientes parámetros minimo=1 caracter máximo= 255")
     private String apellido;
     
     @NotNull
+    @Size(min = 1, max = 255, message = "Debe colocar una descripcion con los siguientes parámetros minimo=1 caracter máximo= 255")
     private String descripcion;
     
     
